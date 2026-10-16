@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="manifest.json">
+<title>Splendorous - Manufacturing Unit</title>
+<style>
+body{margin:0;font-family:system-ui;background:#fff;color:#111}
+.header{background:#0f172a;color:#fff;padding:25px;text-align:center}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;padding:30px}
+.box{border:1px solid #ddd;padding:20px;border-radius:12px;text-align:center}
+.box h3{color:#e65100}
+.btn{background:#e65100;color:#fff;padding:10px 20px;border:none;border-radius:6px}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>SPLENDOROUS SEMOLINA</h1>
+<p>Premium Quality Manufacturing & Processing Unit</p>
+</div>
+
+<div class="products">
+<div class="box"><h3>Semolina (Suji)</h3><p>100% Pure, Double Filtered</p><button class="btn">Enquiry</button></div>
+<div class="box"><h3>Flour Mill</h3><p>Best Quality Atta & Maida</p><button class="btn">Enquiry</button></div>
+<div class="box"><h3>Industrial Supply</h3><p>Bulk Manufacturing Supply</p><button class="btn">Enquiry</button></div>
+</div>
+</body>
+</html>
